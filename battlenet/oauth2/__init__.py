@@ -57,7 +57,7 @@ class BattleNetOAuth2(object):
         self.access_token = None
         self.oauth = None
         if access_token:
-          self._set_token(access_token)
+            self._set_token(access_token)
 
     def get_authorization_url(self):
 
